@@ -1,0 +1,59 @@
+.panel{
+    background-color: #1f252f;
+    padding: 40px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+
+
+.star{
+    background: #272e38;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.description{
+    color: #7c828e;
+    font-size: 15px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.rating{
+    background: #272e38;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.rating:hover{
+    background: #7e8797;
+}
+
+.rating:focus{
+    background: #fc7613;
+}
+
+.submit{
+    width: 100%;
+    color: #ffff;
+    padding: 10px;
+    background: #fc7613;
+    border-radius: 30px;
+}
+
+.submit:hover{
+    color: #fc7613;
+    background: #ffff;
+}
