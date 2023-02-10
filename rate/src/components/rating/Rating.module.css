@@ -1,3 +1,4 @@
+@import '../../vars.css';
 .panel{
     background-color: #1f252f;
     padding: 40px;
@@ -11,7 +12,20 @@
 .star{
     background: #272e38;
     border-radius: 100%;
-    padding: 10px;
+    padding: 8px;
+    width: 7%;
+}
+.thanks{
+    background-color: #1f252f;
+    padding: 40px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.delivered{
+   background: #272e38; 
+   height: 100px;
 }
 
 .title{
@@ -42,18 +56,29 @@
 }
 
 .rating:focus{
-    background: #fc7613;
+    background: var(--primary);
 }
 
 .submit{
     width: 100%;
     color: #ffff;
     padding: 10px;
-    background: #fc7613;
+    background: var(--primary);
     border-radius: 30px;
 }
 
 .submit:hover{
-    color: #fc7613;
+    color: var(--primary);
     background: #ffff;
+}
+
+.selected{
+    color: var(--primary);
+    border-radius: 40px;
+    padding: 10px;
+    background:#272e38;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
